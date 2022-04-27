@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sec::before{
+    content: " ";
+    height:50px;
+    display: block;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    padding: 5px;
+    min-height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(63, 21, 1);
+    color:white;
+    font-size: 3em;
+}
+
+
+.col{
+    float: left;
+    position: relative;
+    padding:5px;
+}
+
+.card{
+    border: 1px solid rgb(136, 52, 13);
+    border-radius:20px;
+    padding:10px;
+    background-color: white;
+    text-align: center;
+}
+
+.col-3ic{
+    float: left;
+    position: relative;
+    padding:5px;
+    padding: 5px;
+    min-height: 100px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.col-3{
+    width: 33.3%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-1{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+.col-1p{
+    align-items: center;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.box{
+    background-color: white;
+    border-radius: 15px;
+    margin:10px;  
+    border: 1px solid rgb(218, 157, 129);
+    padding: 10px;
+}
+
+.boxj{
+    background-color: rgb(162, 236, 162);
+    border-radius: 15px;
+    margin:10px;  
+    border: 1px solid rgb(218, 157, 129);
+    padding: 10px;
+}
+
+.boxbe{
+    background-color: rgb(229, 145, 250);
+    border-radius: 15px;
+    margin:10px;  
+    border: 1px solid rgb(218, 157, 129);
+    padding: 10px;
+}
+
+.boxba{
+    background-color: rgb(247, 146, 146);
+    border-radius: 15px;
+    margin:10px;  
+    border: 1px solid rgb(218, 157, 129);
+    padding: 10px;
+}
+
+.boxa{
+    background-color: rgb(245, 239, 158);
+    border-radius: 15px;
+    margin:10px;  
+    border: 1px solid rgb(218, 157, 129);
+    padding: 10px;
+}
+
+.box .content, .boxj .content, .boxbe .content, .boxba .content, .boxa .content{
+    padding:10px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.contentv {
+    padding-bottom:100px;
+    padding-top:50px;
+    font-size: 1.4em;
+    text-align: center;
+}
+.box .content::first-letter {
+    font-size: 2em;
+
+}
+
+.box .contentx{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.box header{
+    background-color: rgb(136, 52, 13);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size:2em ;
+}
+
+.boxj header{
+    background-color: #0faf1a;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size:2em ;
+}
+
+.boxba header{
+    background-color: rgb(214, 16, 16);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size:2em ;
+}
+
+.boxbe header{
+    background-color: rgb(111, 28, 145);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size:2em ;
+}
+
+.boxa header{
+    background-color: #f7d70c;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size:2em ;
+}
+
+.col-4f{
+    width: 25%;
+}
+
+.col-4f h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    border-bottom: 1px solid rgb(218, 157, 129);
+}
+
+.col-4fh .Credits{
+    text-align: center;
+    width: 25%;
+    color: white;
+    font-size: 1em;
+}
+
+.col-4fh p{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.col-4fh{
+    width: 25%;
+}
+
+.col-4fh h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: white;
+    border-bottom: 1px solid rgb(218, 157, 129);
+}
+
+.TTD{
+    font-size: 1.2em;
+}
+
+.col-4fh p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.box footer, .boxj footer, .boxba footer, .boxbe footer, .boxa footer{
+    background-color: rgb(218, 157, 129);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 45px;
+    font-size: 1.2em ;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(199, 95, 47);
+    margin-bottom: 10px;
+}
+
+.mainForm {
+    padding: 25px;
+    background-color: rgb(100, 39, 11);
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid rgb(199, 95, 47);
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: rgb(218, 157, 129);
+    color: rgb(63, 21, 1);
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(241, 157, 117);
+}
+
+label{
+    text-align: left;
+    margin: 10px 0;
+    display: block;
+}
+
+#message{
+    height: 150px;
+}
+
+#footer{
+    background-color: rgb(63, 21, 1);
+    color:white;
+    min-height: 250px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero{
+    color:white;
+    font-size: 1.5em;
+    background-color:rgb(63, 21, 1) ;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1{
+    font-size: 3em;
+}
+
+.hero h2{
+    font-size: 2em;
+}
+
+.header{
+    height: 100px;
+}
+
+.section {
+    clear: both;
+    border:1px solid rgb(218, 157, 129);
+    padding:20px 0;
+    background-color: rgb(192, 104, 77);
+    height:auto;
+    overflow:hidden;
+}
+
+.logo {
+    float: left;
+    width:150px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+nav ul, .dropdown{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+nav ul li, .dropdown{
+    float: left;
+    position: relative;
+}
+
+nav ul li a, .dropdown{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+nav ul li:hover a{
+    background-color: white;
+    color: rgb(63, 21, 1);
+}
+
+
+.mainHeader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100px;
+    background-color: rgb(63, 21, 1);
+    width: 100%;
+    z-index: 10;
+    padding: 10px;
+}
+
+@media all and (max-width:760px){
+.mainHeader {
+    height:auto
+}
+.logo {
+    float: none;
+    margin:10px auto 20px;
+    display: none;
+}
+nav ul{
+    float: none;
+    display: block;
+    margin:0 auto;
+    text-align: center;
+}
+nav ul li{
+    float: none;
+    display: inline-block;
+}
+nav ul li a{
+    padding: 0 15px;
+}
+.col-4, .col-4fh{
+    width: 100%;
+}
+
+}
+
+@media all and (max-width:760px){
+.col-4f, .col-4fh, .logo{
+    width: 100%;
+    margin: auto;
+    text-align:center
+}
+
+#footer{
+    background-color: rgb(63, 21, 1);
+ }
+
+ .video{
+    margin: auto;
+    text-align: center;   
+    width: 100%; 
+}
+}
+
+@media all and (max-width:600px){
+    .col-3, .col-2, .col-1{
+        width: 100%;
+        margin: auto;
+        text-align:center
+    }
+
+    .mainForm {
+        width: 100%;
+    }
+
+    .picx {
+        width: 100%;
+    }
+}
+
